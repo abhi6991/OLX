@@ -1,0 +1,168 @@
+/*
+
+My Custom CSS
+=============
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+#features{
+	text-align:center;
+	}
+#features img {
+	margin:0 0 20px;
+	}
+#inputMessage {
+	margin-botton:15px;
+}
+footer {
+	background: #333;
+	color: #eee;
+	font-size: 11px;
+	padding: 20px;
+	}
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+   body {
+	   -webkit-font-smoothing:antialized;
+	   text-rendering:optimizelegibility;
+	   }
+   
+   .well .page-header{
+	   margin-top:0px;
+	   }
+	.well .page-header h4{
+		margin-top:0px;
+		}
+	ul.unstyled {
+		list-style:none;
+		padding:0;
+		}
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+
+#searchInput {
+	width: 150px;
+}
+
+.navbar-brand {
+	padding: 13px 15px;
+}
+/*--------selecting categories----------*/
+.categories {
+	
+	border-color:#D9D3D3;
+	border-width:thin; 
+	border-style:solid;
+	padding:10px;
+	}
+.category-row{margin-top:5%;}
+#bigCallout {
+	margin:20px 0 0 0;
+	}
+   
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+
+#myCarousel {
+	margin-top: 60px;
+}
+
+.carousel-caption {
+	font-size: 24px;
+}
+
+.carousel-caption h4 {
+	font-size: 32px;
+}
+
+#myCarousel .item { height: 400px; }
+
+
+
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+.alert {
+	   margin-top:20px;
+	   display:none;
+	   }
+.well {
+	margin:20px 0px;
+	}
+.tabbable img.thumbnail {
+	margin: 0 20px 10px 0;
+	}
+
+.thumbnails {
+	margin:20px 0;
+	}
+.thumbnail{
+	position:relative;
+	}
+.thumbnail h3 {
+	font-size:16px;
+	margin:0 0 10px;
+	line-height:20px;
+	}
+.thumbnail .price{
+	font-size:22px;
+	position:absolute;
+	top: -10px;
+	right: -10px;
+	padding: 10px;
+	}
+.thumbnail .price sup {
+	font-weight: normal;
+	font-size: 12px;
+	}
+.thumbnail span.glyphicon{
+	margin-right: 5px;
+	}
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+	.thumbnail .price {
+		font-size:14px;
+		}
+	.thumbnail .price sup {
+		font-size: 10px;
+		}
+	
+	
+	
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+
+	
+	.carousel-caption {
+		font-size: 16px;
+	}
+	
+	.carousel-caption h4 {
+		font-size: 22px;
+	}
+	
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+
+	
+}
+
+
+
